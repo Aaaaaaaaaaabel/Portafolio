@@ -436,3 +436,341 @@ button {
     -webkit-transform: translate3d(0, 0, -1em);
     transform: translate3d(0, 0, -1em);
    }
+
+
+   .Bloque{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+   }
+   /* From Uiverse.io by mRcOol7 */ 
+.light-button button.bt {
+  position: absolute;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-button button.bt .button-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-button button.bt .button-holder svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-button button.bt .light-holder {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-button button.bt .light-holder .dot {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-button button.bt .light-holder .light {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-button button.bt:hover .button-holder svg {
+  fill: rgb(212, 26, 26); /* LinkedIn blue */
+}
+
+.light-button button.bt:hover .button-holder {
+  color: rgb(146, 18, 12); /* LinkedIn blue */
+  outline: rgb(255, 255, 255) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-button button.bt:hover .light-holder .light {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgb(162, 10, 10) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+/* Facebook*/
+/* From Uiverse.io by Juanes200122 */ 
+.light-buttonF button.bt {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+}
+
+.light-buttonF button.bt .button-holderF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-buttonF button.bt .button-holderF svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-buttonF button.bt .light-holderF {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-buttonF button.bt .light-holderF .dotF {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-buttonF button.bt .light-holderF .lightF {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-buttonF button.bt:hover .button-holderF svg {
+  fill: rgb(66, 81, 245);
+}
+
+.light-buttonF button.bt:hover .button-holderF {
+  color: rgba(66, 81, 245);
+  outline: rgba(66, 81, 245) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-buttonF button.bt:hover .light-holderF .lightF {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(66, 81, 245) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+
+/*GitHub*/
+
+.light-buttonG button.btG {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-buttonG button.btG .button-holderG {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #0a0a0a;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-buttonG button.btG .button-holderG svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-buttonG button.btG .light-holderG {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-buttonG button.btG .light-holderG .dotG {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #0a0a0a;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-buttonG button.btG .light-holderG .lightG {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-buttonG button.btG:hover .button-holderG svg {
+  fill: rgba(101, 101, 121, 1);
+}
+
+.light-buttonG button.btG:hover .button-holderG {
+  color: rgba(101, 101, 121, 1);
+  outline: rgba(101, 101, 121, 1) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-buttonG button.btG:hover .light-holderG .lightG {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(101, 101, 121, 1) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+/*Instagram*/
+
+.light-buttonI button.btI {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: flex-end;
+  outline: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.light-buttonI button.btI .button-holderI {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  background-color: #000000;
+  border-radius: 5px;
+  color: #0f0f0f;
+  font-weight: 700;
+  transition: 300ms;
+  outline: #0f0f0f 2px solid;
+  outline-offset: 20;
+}
+
+.light-buttonI button.btI .button-holderI svg {
+  height: 50px;
+  fill: #0f0f0f;
+  transition: 300ms;
+}
+
+.light-buttonI button.btI .light-holderI {
+  position: absolute;
+  height: 200px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-buttonI button.btI .light-holderI .dotI {
+  position: absolute;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #000000;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.light-buttonI button.btI .light-holderI .lightI {
+  position: absolute;
+  top: 0;
+  width: 200px;
+  height: 200px;
+  clip-path: polygon(50% 0%, 25% 100%, 75% 100%);
+  background: transparent;
+}
+
+.light-buttonI button.btI:hover .button-holderI svg {
+  fill: rgb(255, 0, 238);
+}
+
+.light-buttonI button.btI:hover .button-holderI {
+  color: rgb(173, 0, 153);
+  outline: rgb(251, 38, 255) 2px solid;
+  outline-offset: 2px;
+}
+
+.light-buttonI button.btI:hover .light-holderI .lightI {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    rgb(209, 105, 225) 0%,
+    rgba(255, 255, 255, 0) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
