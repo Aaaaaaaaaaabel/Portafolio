@@ -14,6 +14,9 @@
     p {
         text-align: center;
     }
+    
+
+    
 }
 
 .theme {
@@ -361,10 +364,6 @@
     border-radius: 5px;
 }
 
-/* Resto de tus estilos... */
-
-  
-  /* From Uiverse.io by Madflows */ 
 button {
     position: relative;
     display: inline-block;
@@ -443,7 +442,7 @@ button {
     height: 50%;
     width: 100%;
    }
-   /* From Uiverse.io by mRcOol7 */ 
+
 .light-button button.bt {
   position: absolute;
   height: 200px;
@@ -511,7 +510,7 @@ button {
 
 .light-button button.bt:hover .button-holder {
   color: rgb(146, 18, 12); /* LinkedIn blue */
-  outline: rgb(255, 255, 255) 2px solid;
+  outline: rgb(255, 0, 0) 2px solid;
   outline-offset: 2px;
 }
 
@@ -528,7 +527,7 @@ button {
 
 /* Facebook*/
 /* From Uiverse.io by Juanes200122 */ 
-.light-buttonF button.bt {
+.light-buttonF button.btF {
   position: relative;
   height: 200px;
   display: flex;
@@ -538,7 +537,7 @@ button {
   border: none;
 }
 
-.light-buttonF button.bt .button-holderF {
+.light-buttonF button.btF .button-holderF {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -554,13 +553,13 @@ button {
   outline-offset: 20;
 }
 
-.light-buttonF button.bt .button-holderF svg {
+.light-buttonF button.btF .button-holderF svg {
   height: 50px;
   fill: #0f0f0f;
   transition: 300ms;
 }
 
-.light-buttonF button.bt .light-holderF {
+.light-buttonF button.btF .light-holderF {
   position: absolute;
   height: 200px;
   width: 100px;
@@ -569,7 +568,7 @@ button {
   align-items: center;
 }
 
-.light-buttonF button.bt .light-holderF .dotF {
+.light-buttonF button.btF .light-holderF .dotF {
   position: absolute;
   top: 0;
   width: 10px;
@@ -579,7 +578,7 @@ button {
   z-index: 2;
 }
 
-.light-buttonF button.bt .light-holderF .lightF {
+.light-buttonF button.btF .light-holderF .lightF {
   position: absolute;
   top: 0;
   width: 200px;
@@ -588,17 +587,17 @@ button {
   background: transparent;
 }
 
-.light-buttonF button.bt:hover .button-holderF svg {
+.light-buttonF button.btF:hover .button-holderF svg {
   fill: rgb(66, 81, 245);
 }
 
-.light-buttonF button.bt:hover .button-holderF {
+.light-buttonF button.btF:hover .button-holderF {
   color: rgba(66, 81, 245);
   outline: rgba(66, 81, 245) 2px solid;
   outline-offset: 2px;
 }
 
-.light-buttonF button.bt:hover .light-holderF .lightF {
+.light-buttonF button.btF:hover .light-holderF .lightF {
   background: rgb(255, 255, 255);
   background: linear-gradient(
     180deg,
@@ -764,17 +763,7 @@ button {
   outline: rgb(251, 38, 255) 2px solid;
   outline-offset: 2px;
 }
-  
-        .title {
-            text-align: center;
-            padding: 10px;
-            background-color: #333;
-            color: #fff;
-        }
-        .title h1 {
-            font-size: 24px;
-            margin: 0;
-        }
+
 .light-buttonI button.btI:hover .light-holderI .lightI {
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -783,4 +772,99 @@ button {
     rgba(255, 255, 255, 0) 75%,
     rgba(255, 255, 255, 0) 100%
   );
+}
+
+.title {
+    text-align: center;
+    width: 377px;
+    padding: 20px;
+    background-color: #134a13;
+    color: #fff;
+}
+.title h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+@media (max-width: 780px) {
+  .light-buttonI button.btI .button-holderI svg {
+    fill: rgb(255, 0, 238);
+  }
+
+  .light-buttonI button.btI .button-holderI {
+    color: rgb(173, 0, 153);
+    outline: rgb(251, 38, 255) 2px solid;
+    outline-offset: 2px;
+  }
+
+  .light-buttonI button.btI .light-holderI .lightI {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgb(209, 105, 225) 0%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .light-buttonG button.btG .button-holderG svg {
+    fill: rgba(101, 101, 121, 1);
+  }
+  
+  .light-buttonG button.btG .button-holderG {
+    color: rgba(101, 101, 121, 1);
+    outline: rgba(101, 101, 121, 1) 2px solid;
+    outline-offset: 2px;
+  }
+  
+  .light-buttonG button.btG .light-holderG .lightG {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(101, 101, 121, 1) 0%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .light-buttonF button.btF .button-holderF svg {
+    fill: rgb(66, 81, 245);
+  }
+  
+  .light-buttonF button.btF .button-holderF {
+    color: rgba(66, 81, 245);
+    outline: rgba(66, 81, 245) 2px solid;
+    outline-offset: 2px;
+  }
+  
+  .light-buttonF button.btF .light-holderF .lightF {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgba(66, 81, 245) 0%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .light-button button.bt .button-holder svg {
+    fill: rgb(212, 26, 26); /* LinkedIn blue */
+  }
+  
+  .light-button button.bt .button-holder {
+    color: rgb(146, 18, 12); /* LinkedIn blue */
+    outline: rgb(255, 0, 0) 2px solid;
+    outline-offset: 2px;
+  }
+  
+  .light-button button.bt .light-holder .light {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      180deg,
+      rgb(162, 10, 10) 0%,
+      rgba(255, 255, 255, 0) 75%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+  
 }
